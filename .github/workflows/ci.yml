@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on:
-      steps:
-        - name: builder
-          uses: Hoppermq/ci-kitchenette/astro/build@master
+    runs-on: ubuntu-latest
+    steps:
+      - name: builder
+        uses: Hoppermq/ci-kitchenette/astro/build@master
